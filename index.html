@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech I.S</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        table {
+            width: 100%
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+        #greetings {
+            position: relative;
+            width: 100%;
+            padding: 5%;
+            color: white;
+        }
+
+        #greetings::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://res.cloudinary.com/dvcqt0fz8/image/upload/v1687351595/email/Lady_icptjr.png');
+            background-color: rgba(0, 0, 0, 0.501);
+            background-blend-mode: multiply;
+            background-size: cover;
+            z-index: -1;
+        }
+
+        div.logo img {
+            width: 20vw;
+        }
+
+        div.content h1 {
+            font-size: clamp(3rem, 6vw, 7rem);
+        }
+
+        div.content h3 {
+            font-size: clamp(1.5rem, 5vw, 4rem);
+            font-weight: 500;
+        }
+
+        div.content p {
+            font-size: clamp(1rem, 2.5vw, 2.5rem);
+            font-weight: 100;
+            color: #FFFFFF;
+            max-width: 900px;
+            line-height: 1.5;
+        }
+
+        #link {
+            color: black;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #link button {
+            padding: 2vw 5vw;
+            background-color: #D94D0E;
+            border-radius: 100px;
+            border: 0;
+            border-bottom: 0.5vw solid black;
+        }
+
+        #link button a {
+            font-family: 'Raleway', sans-serif;
+            font-size: clamp(2rem, 4vw, 5rem);
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #link h1 {
+            font-weight: 800;
+            text-align: center;
+            padding: 4vh 0;
+        }
+
+        #regards {
+            background: linear-gradient(90deg, rgba(148, 82, 136, 1) 0%, rgba(85, 52, 111, 1) 100%);
+            text-align: center;
+            padding: 4vh 0;
+        }
+
+        #regards p {
+            padding: 2vh 0;
+            color: #FFFFFF;
+            font-size: clamp(1rem, 2vw, 2rem);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <section id="greetings">
+                    <div class="logo">
+                        <img src="https://res.cloudinary.com/dvcqt0fz8/image/upload/v1687351588/email/Mask_Group_1_uhmv2s.png"
+                            alt="">
+                    </div>
+                    <div class="content">
+                        <h1>Hi,</h1>
+                        <br>
+                        <h3>Greetings from TECH I.S.</h3>
+                        <h3>We hope you’re safe and well!</h3>
+                        <br>
+                        <br>
+                        <p>Thank you for confirming your session with us today.</p>
+                        <br>
+                        <br>
+                        <p>We are excited about the opportunity to meet you and Extend an invitation to attend the
+                            scheduled session.</p>
+                        <p>As a reminder our team will get in touch with you.</p>
+                    </div>
+                </section>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <section id="link">
+                    <h1>You may also use the Live link to connect with us directly.</h1>
+                    <button>
+                        <a href="https://meet.google.com/foi-bmch-dtq">Live link</a>
+                    </button>
+                </section>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <br>
+                <section id="regards">
+                    <p>The live link will be open <b>24/7</b></p>
+                    <p>We look forward to getting to know more about your aspirations.</p>
+                    <p>Thanks and regards,<br>Team TECH I.S.</p>
+                </section>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
